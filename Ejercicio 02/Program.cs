@@ -24,6 +24,7 @@ namespace Ejercicio_02
             double promedio;
 
             promedio = ((n1*0.10) + (n2*0.20) + (n3*0.30) + (n4*0.40));
+            Console.WriteLine("Promedio: " + promedio);
 
             if (promedio >= 11.5)
             {
