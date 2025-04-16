@@ -21,11 +21,11 @@ namespace Ejercicio_02
             Console.WriteLine("Ingrese la cuarta nota: ");
             n4 = float.Parse(Console.ReadLine());
 
-            float promedio;
+            double promedio;
 
-            promedio = (n1 + n2 + n3 + n4) / 4;
+            promedio = ((n1*0.10) + (n2*0.20) + (n3*0.30) + (n4*0.40));
 
-            if (promedio > 12)
+            if (promedio >= 11.5)
             {
                 Console.WriteLine("Estás aprobado");
             }
